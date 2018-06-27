@@ -1,7 +1,7 @@
 package 'cowsay' do
-    action :install
+  action :install
 end
 
 package 'sl' do
-    action :install
+  action :install
 end
