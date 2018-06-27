@@ -23,3 +23,7 @@ end
 describe package('tree') do
   it { should be_installed }
 end
+
+describe file('/etc/motd'), :skip do
+  it { should be_file }
+end
